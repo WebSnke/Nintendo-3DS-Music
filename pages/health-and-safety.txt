@@ -1,0 +1,129 @@
+
+Health & Safety Precautions: Nintendo 3DS
+
+Applies to:  New Nintendo 3DS, New Nintendo 3DS XL, Nintendo 3DS, Nintendo 3DS XL
+
+Important Safety Information - Read the following warnings before setup or use of the Nintendo 3DS system. If this product will be used by young children, this manual should be read and explained to them by an adult. Failing to do so may cause injury. Please carefully review the instruction booklet for the game you are playing for additional health and safety information.
+
+Throughout this manual, you will see this symbol followed by WARNING or CAUTION, or you may see the term IMPORTANT. These terms have different levels of meaning as outlined below. Please read and understand these terms and the information that appears after them before using your Nintendo 3DS system:
+
+WARNING: Warns you about incorrect use of the Nintendo 3DS system that could result in serious personal injury.
+
+CAUTION: Cautions you about incorrect use of the Nintendo 3DS system that could result in personal injury or damage to the Nintendo 3DS system, components, games or accessories.
+
+IMPORTANT: Informs you about incorrrect use of the Nintendo 3DS system that could result in damage to the Nintendo 3DS system, components, games or accessories.
+WARNING - 3D FEATURE ONLY FOR CHILDREN 7 AND OVER
+
+Viewing of 3D images by children 6 and under may cause vision damage.
+
+Use the Parental Control feature to restrict the display of 3D images for children 6 and under. See the Parental Controls section in this manual for more information.
+WARNING - SEIZURES
+
+    Some people (about 1 in 4000) may have seizures or blackouts triggered by light flashes or patterns, and this may occur while they are watching TV or playing video games, even if they have never had a seizure before.
+    Anyone who has had a seizure, loss of awareness, or other symptom linked to an epileptic condition should consult a doctor before playing a video game.
+    Parents should watch their children play video games. Stop playing and consult a doctor if you or your child has any of the following symptoms:
+        Convulsions
+        Eye or muscle twitching
+        Loss of awareness
+        Altered vision
+        Involuntary movements
+        Disorientation
+
+To reduce the likelihood of a seizure when playing video games:
+
+    Sit or stand as far from the screen as possible.
+    Play video games on the smallest available television screen.
+    Do not play if you are tired or need sleep.
+    Play in a well-lit room.
+    Take a 10 to 15 minute break every hour.
+
+WARNING - EYESTRAIN AND MOTION SICKNESS
+
+Playing video games can result in eyestrain after a sustained period of time, and perhaps sooner if using the 3D feature. Playing video games can also result in motion sickness in some players. Follow these instructions to help avoid eyestrain, dizziness, or nausea:
+
+    Avoid excessive play. It is recommended that parents monitor their children for appropriate play.
+    Take a 10 to 15 minute break every hour, or every half hour when using the 3D feature, even if you don’t think you need it. Each person is different, so take more frequent and longer breaks if you feel discomfort.
+    If your eyes become tired or sore while playing, or if you feel dizzy or nauseated, stop and rest for several hours before playing again.
+    If you continue to have any of the above symptoms, stop playing and see a doctor.
+
+WARNING - Repetitive Motion Injuries
+
+Playing video games can make your muscles, joints, skin or eyes hurt. Follow these instructions to avoid problems such as tendinitis, carpal tunnel syndrome, skin irritation or eyestrain:
+
+    Avoid excessive play. Parents should monitor their children for appropriate play.
+    Take a 10 to 15 minute break every hour, even if you don't think you need it.
+    When using the stylus, you do not need to grip it tightly or press it hard against the screen. Doing so may cause fatigue or discomfort.
+    If your hands, wrists, arms or eyes become tired or sore while playing, or if you feel symptoms such as tingling, numbness, burning or stiffness, stop and rest for several hours before playing again.
+    If you continue to have any of the above symptoms or other discomfort during or after play, stop playing and see a doctor.
+
+WARNING - Battery Leakage
+
+The Nintendo 3DS system contains a rechargeable lithium ion battery pack. Leakage of ingredients contained within the battery pack, or the combustion products of the ingredients, can cause personal injury as well as damage to your Nintendo 3DS system. If battery leakage occurs, avoid contact with skin. If contact occurs, immediately wash thoroughly with soap and water. If liquid leaking from a battery pack comes into contact with your eyes, immediately flush thoroughly with water and see a doctor.
+
+To avoid battery leakage:
+
+    Do not expose battery to excessive physical shock, vibration, or liquids.
+    Do not disassemble, attempt to repair or deform the battery.
+    Do not dispose of battery pack in a fire.
+    Do not touch the terminals of the battery, or cause a short between the terminals with a metal object.
+    Do not peel or damage the battery label.
+
+WARNING - Radio Frequency Interference
+
+The Nintendo 3DS system can emit radio waves that can affect the operation of nearby electronics, including cardiac pacemakers.
+
+    Do not operate the Nintendo 3DS within 9 inches of a pacemaker while using the wireless feature.
+    If you have a pacemaker or other implanted medical device, do not use the wireless feature of the Nintendo DS without first consulting your doctor or the manufacturer of your medical device.
+    Observe and follow all regulations and rules regarding use of wireless devices in locations such as hospitals, airports, and on board aircraft. Operation in those locations may interfere with or cause malfunctions of equipment, with resulting injuries to persons or damage to property.
+
+IMPORTANT: The Nintendo 3DS system allows you to disable wireless communication. To turn off all wireless communication, push the wireless switch to turn the feature off. See page 12 for more information. Make sure the wireless LED is off.
+HARDWARE PRECAUTIONS AND MAINTENANCE
+
+    Do not disassemble or try to repair the Nintendo 3DS system, components, or accessories. Doing so voids your warranty.
+    Always turn the Nintendo 3DS power off before loading or removing a Game Card. Insert the Game Card completely until it clicks into place, without forcing either the Game Card or the Nintendo 3DS system.
+    Do not store the Nintendo 3DS system in a humid place, on the floor, or in any location where it may contact moisture, dirt, dust, lint, or any other foreign material.
+    Do not drop, hit, or otherwise abuse the Nintendo 3DS system, components, or accessories. Doing so may damage the LCD screens or other precision components of the Nintendo 3DS system.
+    Make sure all connections to the Nintendo 3DS system are made carefully and inserted into the correct locations only. Hold plugs straight when inserting them into sockets.
+    When disconnecting any plugs from the Nintendo 3DS system or wall outlet, first turn the Nintendo 3DS system off. Then carefully pull by the plug itself rather than by the cord. Do not step on, sharply pull, or bend any wires or cables.
+    Do not expose the Nintendo 3DS system, Game Cards or any of the Nintendo 3DS components or accessories to extreme heat or cold. The liquid crystal displays (LCD) may become slower or may not work when the temperature is low. The LCD will deteriorate at a high temperature. Take care not to expose the Nintendo 3DS system to direct sunlight for extended periods of time.
+    The LCD screens may be damaged by sharp objects or pressure. Take care to protect the displays from scratches or stains.
+    Connect ONLY accessories designed and licensed for use with the Nintendo 3DS system to any external connectors.
+    Do not spill liquids on the Nintendo 3DS system, Game Cards, or other components or accessories. If the Nintendo 3DS system comes into contact with liquids, wipe clean with a soft, slightly damp cloth (use water only). Remove the battery cover and battery. If liquid came into contact with the battery, do not reuse it. Call Nintendo Customer Service at 1-800-255-3700 for further instructions on battery replacement and possible service for your Nintendo 3DS system.
+    Do not rapidly turn the power switch ON and OFF, as this may shorten the life of the battery and cause Game Cards to lose your stored game information.
+    To avoid dirt or dust from getting into the Nintendo 3DS system, always leave a Game Card loaded (with the power off), when not in use.
+    When using an AC adapter, make sure you are using the correct model appropriate for your Nintendo 3DS system. Always unplug the AC adapter from the wall outlet when not in use.
+    Do not use the AC adapter if the cable or plug is damaged.
+    The AC adapter is intended to be correctly oriented in a vertical or floor mounted position.
+
+GAME CARD PRECAUTIONS AND MAINTENANCE
+
+    Avoid touching the connectors with your fingers. Do not blow on them or allow them to get wet or dirty. Doing so may damage the Game Card and/or the Nintendo 3DS system.
+    The Game Card is a high-precision electronic device. Do not store it in places that are very hot or cold. Do not hit, drop, or otherwise abuse it. Do not attempt to take it apart.
+    Do not clean with benzene, paint thinner, alcohol or any other solvent.
+    Always check the Game Card edge connector for foreign material before inserting the Game Card into the Nintendo 3DS system.
+
+IMPORTANT BATTERY GUIDELINES
+
+    Do not remove the battery pack from the Nintendo 3DS system unless it needs to be replaced.
+    Do not use any battery other than the Nintendo 3DS rechargeable battery pack, Model No. CTR-003. A replacement battery may be ordered through Nintendo’s website at store.nintendo.com (USA/Canada only) or by calling Customer Service at 1-800-255-3700. See page 90 for more information on replacing the battery.
+    When recharging the battery, use ONLY the included AC adapter, Model No. WAP-002(USA).
+    When disposing of the battery, follow appropriate local guidelines and regulations. For information on battery disposal contact your local solid waste authority. See page 90 for more information on recycling the battery.
+    If liquid comes into contact with the battery, do not reuse it. Call Nintendo Customer Service at 1-800-255-3700 for further instructions on battery replacement and possible service for your Nintendo 3DS system.
+
+IMPORTANT STYLUS AND SCREEN GUIDELINES
+
+    Use the stylus ONLY on the Touch Screen (lower screen).
+    Use only enough pressure to operate the game. Excessive pressure may damage the Touch Screen.
+    Do not use the stylus if it is broken.
+    Use only a Nintendo licensed stylus on the Touch Screen.
+    Retract and replace the stylus in the stylus holder when not in use.
+    If you use a screen protector on your Nintendo 3DS system, use only a Nintendo licensed screen protector.
+
+CLEANING THE TOUCH SCREEN AND 3D SCREEN
+
+IMPORTANT: If the Touch Screen becomes dirty or contaminated with foreign material, do not continue to use your Nintendo 3DS system. It may not work properly and can become more damaged. Follow the cleaning procedures below. If it still does not work after cleaning, visit support.nintendo.com for information on repair services.
+
+If the screens on your Nintendo 3DS system have visible smudges, fingerprints, or other foreign material on them, you can clean them by using a soft clean cloth, such as a lens or eyeglass cleaning cloth.
+
+    Slightly dampen the cloth with water ONLY and wipe off the screens to loosen any dirt or foreign material.
+    Using a dry cloth, wipe the screens to dry them and finish the cleaning process. If needed, repeat the process.

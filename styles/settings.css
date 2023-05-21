@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 233px;
+    padding: var(--width);
+    --black: rgb(0, 0, 0);
+    --blue: rgb(0, 157, 209);
+    --blue-transparent: rgba(0, 157, 209, 0.4);
+    --gray: rgb(160, 160, 160);
+    --gray-transparent: rgba(160, 160, 160, 0.4);
+    --orange: rgb(244, 123, 0);
+    --orange-transparent: rgba(244, 123, 0, 0.4);
+    --red: rgb(207, 0, 16);
+    --red-transparent: rgb(207, 0, 16, 0.4);
+    --white: rgb(255, 255, 255);
+    --white-transparent: rgb(255, 255, 255, 0.4);
+    --blue-gradient: linear-gradient(180deg, var(--white-transparent) 60%, var(--blue-transparent) 100%);
+    --gray-gradient: linear-gradient(180deg, var(--white-transparent) 60%, var(--gray-transparent) 100%);
+    --orange-gradient: linear-gradient(180deg, var(--white-transparent) 60%, var(--orange-transparent) 100%);
+    --width: 15px;
+}
+
+body,
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label,
+.button {
+    margin-top: calc(var(--width) * (2/3));
+}
+
+option,
+.button {
+    font-size: 1em;
+    padding: calc(var(--width) * (1/3));
+}
+
+header {
+    display: flex;
+    font-size: 1.1em;
+    justify-content: center;
+}
+
+header,
+input,
+label,
+select,
+.button {
+    margin-bottom: calc(var(--width) * (1/3));
+}
+
+select,
+.button {
+    border: 2px solid var(--gray);
+    border-radius: calc(var(--width) * (1/3));
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.button {
+    background: var(--gray-gradient);
+    display: grid;
+}
+
+.button a {
+    color: var(--gray);
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.button a:hover {
+    color: var(--black);
+    transition: 0.5s;
+}
+
+.orange {
+    color: var(--orange);
+}
+
+.red {
+    color: var(--red);
+}
+
+#settings-select {
+    background: var(--blue-gradient);
+}
+
+#shopping-select {
+    background: var(--orange-gradient);
+}

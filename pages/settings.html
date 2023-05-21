@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/settings.css">
+    <title>Nintendo 3DS Music</title>
+</head>
+
+<body>
+    <main>
+        <form>
+            <label class="blue">Settings music</label>
+            <select id="settings-select" multiple>
+                <option value="amiibo-settings.mp3" selected>Amiibo - Settings</option>
+                <option value="miiverse-settings.mp3">Miiverse - Settings</option>
+                <option value="settings-internet.mp3">System Settings - Internet Settings</option>
+            </select>
+            <label class="orange">Shopping music</label>
+            <select id="shopping-select" multiple>
+                <option value="eShop-alternative.mp3" selected>Nintendo eShop - Alternative</option>
+                <option value="eShop-main.mp3">Nintendo eShop - Main Theme</option>
+                <option value="eShop-purchase.mp3">Nintendo <span class="orange">eShop</span> - Software
+                    Purchase</option>
+            </select>
+            <label>Volume</label>
+            <input id="volume-slider" type="range" min="0" max="100" value="20" step="1">
+        </form>
+    </main>
+    <footer>
+        <div class="button"><a href="https://github.com/WebSnke/Nintendo-3DS-Music">GitHub</a></div>
+    </footer>
+    <script type="module" src="/scripts/settings.js"></script>
+</body>
+
+</html>

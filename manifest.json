@@ -1,0 +1,31 @@
+{
+    "version": "1.0",
+    "manifest_version": 2,
+    "author": "WebSnke",
+    "name": "Nintendo 3DS Music",
+    "homepage_url": "https://github.com/WebSnke/Nintendo-3DS-Music",
+    "description": "Listen to the Nintendo 3DS Music while adjusting your settings or shopping.",
+    "icons": {
+        "128": "images/icon.png"
+    },
+    "permissions": [
+        "notifications",
+        "storage",
+        "tabs"
+    ],
+    "browser_action": {
+        "default_title": "Nintendo 3DS Music",
+        "default_popup": "/pages/settings.html?source=action"
+    },
+    "options_ui": {
+        "page": "/pages/settings.html",
+        "open_in_tab": false
+    },
+    "background": {
+        "scripts": [
+            "/scripts/background.js"
+        ],
+        "type": "module",
+        "persistent": true
+    }
+}
