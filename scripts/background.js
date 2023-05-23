@@ -7,8 +7,8 @@ let audioSource = {
 };
 
 const regex = {
-    shopping: /(?<!\.)(www\.)?(adidas|alibaba|amazon|asos|bestbuy|costco|ebay|etsy|flipkart|idealo|myntra|newegg|nike|overstock|rakuten|sephora|shopify|target|ulta|walmart|zara)\./,
-    settings: /(duolingo|github|reddit|spotify|tutanota)\.\w{2,3}\/(settings|preferences)/
+    settings: /(duolingo|github|reddit|spotify|tutanota)\.\w{2,3}\/(settings|preferences)/,
+    shopping: /(?<!\.)(www\.)?(adidas|alibaba|amazon|asos|bestbuy|costco|ebay|etsy|flipkart|idealo|myntra|newegg|nike|overstock|rakuten|sephora|shopify|target|ulta|walmart|zara)\./
 };
 
 setInterval(() => {
