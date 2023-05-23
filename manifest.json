@@ -6,7 +6,7 @@
     "homepage_url": "https://github.com/WebSnke/Nintendo-3DS-Music",
     "description": "Listen to the Nintendo 3DS Music while adjusting your settings or shopping.",
     "icons": {
-        "256": "/images/music-icon/256px.png"
+        "256": "/images/music-icon.png"
     },
     "permissions": [
         "notifications",
