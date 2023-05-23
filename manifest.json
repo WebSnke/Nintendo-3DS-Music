@@ -7,7 +7,9 @@
     "description": "Listen to the Nintendo 3DS Music while adjusting your settings or shopping.",
     "icons": {
         "32": "/images/music-icon/32px.png",
+        "48": "/images/music-icon/48px.png",
         "64": "/images/music-icon/64px.png",
+        "96": "/images/music-icon/96px.png",
         "128": "/images/music-icon/128px.png",
         "256": "/images/music-icon/256px.png"
     },
