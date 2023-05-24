@@ -1,5 +1,5 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "manifest_version": 2,
     "author": "WebSnke",
     "name": "Nintendo 3DS Music",
@@ -25,7 +25,6 @@
         "scripts": [
             "/scripts/background.js"
         ],
-        "type": "module",
         "persistent": true
     }
 }
