@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
     "version": "1.0.2",
-=======
-    "version": "1.0",
->>>>>>> parent of e523b5e (Change version number)
     "manifest_version": 2,
     "author": "WebSnke",
     "name": "Nintendo 3DS Music",
