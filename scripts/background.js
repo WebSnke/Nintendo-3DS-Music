@@ -23,7 +23,10 @@ setInterval(() => {
                     audio.play();
                     navigator.mediaSession.metadata = new MediaMetadata({
                         title: 'Settings',
-                        artist: 'Nintendo 3DS Music'
+                        artist: 'Nintendo 3DS Music',
+                        artwork: [
+                            { src: '/images/settings-icon.png', sizes: '256x256', type: 'image/png' }
+                        ]
                     });
                 };
             } else if (regex.shopping.test(url)) {
@@ -32,7 +35,10 @@ setInterval(() => {
                     audio.play();
                     navigator.mediaSession.metadata = new MediaMetadata({
                         title: 'Shopping',
-                        artist: 'Nintendo 3DS Music'
+                        artist: 'Nintendo 3DS Music',
+                        artwork: [
+                            { src: '/images/eshop-icon.png', sizes: '256x256', type: 'image/png' }
+                        ]
                     });
                 };
             } else if (!regex.settings.test(url) && !regex.shopping.test(url) && !audio.paused && !audio.src.includes(audioSource.health)) {
