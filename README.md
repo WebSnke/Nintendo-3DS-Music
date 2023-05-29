@@ -6,6 +6,14 @@
 
 ---
 
+## Contribute
+#### Add Shops or Settings
+To add a new shop or settings to this project, follow the steps below:
+1. Fork this repository
+2. Open the **/scripts/background.js**
+3. Update the **regex.shopping** or **regex.settings**
+4. Commit your changes and send a pull request
+
 ## License
 
 <a href="https://opensource.org/license/gpl-3-0/">
