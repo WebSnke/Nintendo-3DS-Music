@@ -7,8 +7,8 @@ let audioSource = {
 };
 
 const regex = {
-    settings: /(duolingo|github|reddit|spotify|tutanota)\.\w{2,3}\/(settings|preferences)/,
-    shopping: /(?<!\.)(www\.)?(adidas|alibaba|amazon|asos|bestbuy|costco|ebay|etsy|flipkart|idealo|myntra|newegg|nike|overstock|rakuten|sephora|shopify|target|ulta|walmart|zara)\./
+    settings: /(duolingo|github|reddit|spotify|tutanota)\.\w{2,3}\/(settings|preferences)|about:(?!newtab)/,
+    shopping: /(?<!\.)(www\.)?(adidas|alibaba|amazon|asos|bestbuy|costco|ebay|etsy|flipkart|idealo|myntra|newegg|nike|overstock|puma|rakuten|sephora|shopify|target|ulta|walmart|zalando|zappos|zara)\./
 };
 
 setInterval(() => {
@@ -88,6 +88,7 @@ browser.runtime.onInstalled.addListener((details) => {
         });
 
         audio.src = audioSource.health;
+        audio.volume = 0.1;
         audio.play();
     }
 });
