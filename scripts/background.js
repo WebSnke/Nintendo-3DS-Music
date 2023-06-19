@@ -7,7 +7,7 @@ let audioSource = {
 };
 
 const regex = {
-    settings: /(duolingo|github|reddit|spotify|tutanota)\.\w{2,3}.*\/(settings|preferences)|about:(?!newtab)/,
+    settings: /(duolingo|github|reddit|spotify|tutanota)\.\w{2,3}.*\/(settings|preferences)|about:(?!newtab|home)/,
     shopping: /(?<!\.)(www\.)?(adidas|alibaba|amazon|asos|bestbuy|costco|ebay|etsy|flipkart|idealo|myntra|newegg|nike|overstock|puma|rakuten|sephora|shopify|target|ulta|walmart|zalando|zappos|zara)\./
 };
 
