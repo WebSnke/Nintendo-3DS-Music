@@ -101,7 +101,7 @@ browser.runtime.onInstalled.addListener((details) => {
         });
 
         audio.src = audioSource.health;
-        audio.volume = 50;
+        audio.volume = 0.1;
         audio.play();
     }
 });
