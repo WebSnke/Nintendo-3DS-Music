@@ -28,7 +28,7 @@ setInterval(() => {
                             { src: '/images/settings-icon.png', sizes: '256x256', type: 'image/png' }
                         ]
                     });
-                }
+                };
             } else if (regex.shopping.test(url)) {
                 if (audio.paused) {
                     audio.src = audioSource.shopping;
@@ -40,10 +40,10 @@ setInterval(() => {
                             { src: '/images/eshop-icon.png', sizes: '256x256', type: 'image/png' }
                         ]
                     });
-                }
+                };
             } else if (!regex.settings.test(url) && !regex.shopping.test(url) && !audio.paused && !audio.src.includes(audioSource.health)) {
                 fadeOut();
-            }
+            };
         });
 }, 1000);
 
@@ -65,7 +65,7 @@ browser.runtime.onMessage.addListener((message) => {
     if (message.type === 'updateSettingsAudio') {
         audioSource.settings = '/audio/' + message.source;
         audio.src = audioSource.settings;
-    }
+    };
 });
 
 browser.runtime.onMessage.addListener((message) => {
@@ -73,14 +73,14 @@ browser.runtime.onMessage.addListener((message) => {
         if (audioSource.shopping != '/audio/' + message.source) {
             audioSource.shopping = '/audio/' + message.source;
             audio.src = audioSource.shopping;
-        }
-    }
+        };
+    };
 });
 
 browser.runtime.onMessage.addListener((message) => {
     if (message.type === 'updateVolume') {
         audio.volume = message.volume / 100;
-    }
+    };
 });
 
 browser.runtime.onInstalled.addListener((details) => {
