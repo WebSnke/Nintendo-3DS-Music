@@ -56,7 +56,7 @@ function fadeOutAudio() {
 	    audio.pause();
             audio.volume = initialVolume;
         }
-    }, 5);
+    }, 10);
 }
 
 browser.runtime.onMessage.addListener((message) => {
