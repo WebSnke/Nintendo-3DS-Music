@@ -48,17 +48,15 @@ setInterval(() => {
 }, 1000);
 
 function fadeOutAudio() {
-    let volume = audio.volume;
     const initialVolume = audio.volume;
     const fadeOutInterval = setInterval(() => {
-        if (audio.volume > 0) {
-            audio.volume -= 0.01;
-        } else {
+	audio.volume = Math.max(0, audio.volume - 0.01);
+        if (audio.volume === 0) {
             clearInterval(fadeOutInterval);
-            audio.pause();
+	    audio.pause();
             audio.volume = initialVolume;
         }
-    }, 1);
+    }, 5);
 }
 
 browser.runtime.onMessage.addListener((message) => {
@@ -105,3 +103,4 @@ browser.runtime.onInstalled.addListener((details) => {
         audio.play();
     }
 });
+
