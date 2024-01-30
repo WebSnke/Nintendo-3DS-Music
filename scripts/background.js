@@ -42,12 +42,12 @@ setInterval(() => {
                     });
                 };
             } else if (!regex.settings.test(url) && !regex.shopping.test(url) && !audio.paused && !audio.src.includes(audioSource.health)) {
-                fadeOut();
+                fadeOutAudio();
             };
         });
 }, 1000);
 
-function fadeOut() {
+function fadeOutAudio() {
     let volume = audio.volume;
     const initialVolume = audio.volume;
     const fadeOutInterval = setInterval(() => {
