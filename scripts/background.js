@@ -42,14 +42,25 @@ setInterval(() => {
                     });
                 };
             } else if (!regex.settings.test(url) && !regex.shopping.test(url) && !audio.paused && !audio.src.includes(audioSource.health)) {
-                audio.pause();
+                fadeOutAudio();
             };
         });
 }, 1000);
 
+function fadeOutAudio() {
+    const initialVolume = audio.volume;
+    const fadeOutInterval = setInterval(() => {
+	audio.volume = Math.max(0, audio.volume - 0.005);
+        if (audio.volume === 0) {
+            clearInterval(fadeOutInterval);
+	    audio.pause();
+            audio.volume = initialVolume;
+        }
+    }, 10);
+}
+
 browser.runtime.onMessage.addListener((message) => {
     if (message.type === 'updateSettingsAudio') {
-        audioSource.settings = '/audio/' + message.source;
         audioSource.settings = '/audio/' + message.source;
         audio.src = audioSource.settings;
     };
@@ -76,7 +87,7 @@ browser.runtime.onInstalled.addListener((details) => {
             type: 'basic',
             iconUrl: browser.extension.getURL('/images/warning.png'),
             title: 'WARNING - HEALTH AND SAFETY',
-            message: 'BEFORE PLAYING, READ THE HEALTH AND SAFETY PRECAUTIONS BOOKLET FOR IMPORTANT INFORMATION ABOUT YOUR HEALTH AND SAFETY.',
+            message: 'BEFORE PLAYING, READ THE HEALTH AND SAFETY PRECAUTIONS BOOKLET FOR IMPORTANT INFORMATION ABOUT YOUR HEALTH AND SAFETY.'
         };
 
         browser.notifications.create(notificationOptions, (notificationId) => {
@@ -92,3 +103,4 @@ browser.runtime.onInstalled.addListener((details) => {
         audio.play();
     }
 });
+
