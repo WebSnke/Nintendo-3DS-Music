@@ -50,7 +50,7 @@ setInterval(() => {
 function fadeOutAudio() {
     const initialVolume = audio.volume;
     const fadeOutInterval = setInterval(() => {
-	audio.volume = Math.max(0, audio.volume - 0.01);
+	audio.volume = Math.max(0, audio.volume - 0.005);
         if (audio.volume === 0) {
             clearInterval(fadeOutInterval);
 	    audio.pause();
