@@ -49,14 +49,14 @@ setInterval(() => {
 
 function fadeOut() {
     let volume = audio.volume;
+    const initialVolume = audio.volume;
     const fadeOutInterval = setInterval(() => {
-        if (volume > 0) {
-            volume -= 0.01;
-            audio.volume = volume;
+        if (audio.volume > 0) {
+            audio.volume -= 0.01;
         } else {
             clearInterval(fadeOutInterval);
             audio.pause();
-            audio.volume = 1;
+            audio.volume = initialVolume;
         }
     }, 1);
 }
