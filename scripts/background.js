@@ -42,22 +42,23 @@ setInterval(() => {
                     });
                 };
             } else if (!regex.settings.test(url) && !regex.shopping.test(url) && !audio.paused && !audio.src.includes(audioSource.health)) {
-                fadeOutAudio();
+		audio.pause();
+                // fadeOutAudio();
             };
         });
 }, 1000);
 
-function fadeOutAudio() {
-    const initialVolume = audio.volume;
-    const fadeOutInterval = setInterval(() => {
-	audio.volume = Math.max(0, audio.volume - 0.005);
-        if (audio.volume === 0) {
-            clearInterval(fadeOutInterval);
-	    audio.pause();
-            audio.volume = initialVolume;
-        }
-    }, 10);
-}
+// fadeOutAudio(() => {
+//     const initialVolume = audio.volume;
+//     const fadeOutInterval = setInterval(() => {
+// 	audio.volume = Math.max(0, audio.volume - 0.005);
+//         if (audio.volume === 0) {
+//             clearInterval(fadeOutInterval);
+// 	    audio.pause();
+//             audio.volume = initialVolume;
+//         }
+//     }, 10);
+// });
 
 browser.runtime.onMessage.addListener((message) => {
     if (message.type === 'updateSettingsAudio') {
